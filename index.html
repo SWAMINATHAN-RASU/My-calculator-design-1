@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Making a Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="calculator">
+            <input type="text" style="background-color: darkseagreen;" placeholder="0" id="output">
+
+            <button onclick="Clear()" style=" font-weight: bold;">Cl</button>
+            <button onclick="Square()" style="font-weight: bold;">Sq</button>
+            <button onclick="Cube()" style="font-weight: bold;">Cu</button>
+
+            <button onclick="Display('%')"><i class="fa-solid fa-percent"></i></button>
+
+            <button onclick="Diagonal()"><i class="fa-solid fa-square-root-variable">3a</i></button>
+            <button onclick="Squareroot()">2<i class="fa-solid fa-square-root-variable"></i></button>
+            <button onclick="Cuberoot()">3<i class="fa-solid fa-square-root-variable"></i></button>
+
+            <button onclick="Display('/')"><i class="fa-solid fa-divide"></i></button>
+
+            <button onclick="Display('7')"><i class="fa-solid fa-7"></i></button>
+            <button onclick="Display('8')"><i class="fa-solid fa-8"></i></button>
+            <button onclick="Display('9')"><i class="fa-solid fa-9"></i></button>
+            <button onclick="Display('*')"><i class="fa-solid fa-xmark"></i></button>
+
+            <button onclick="Display('4')"><i class="fa-solid fa-4"></i></button>
+            <button onclick="Display('5')"><i class="fa-solid fa-5"></i></button>
+            <button onclick="Display('6')"><i class="fa-solid fa-6"></i></button>
+            <button onclick="Display('-')"><i class="fa-solid fa-minus"></i></button>
+
+            <button onclick="Display('1')"><i class="fa-solid fa-1"></i></button>
+            <button onclick="Display('2')"><i class="fa-solid fa-2"></i></button>
+            <button onclick="Display('3')"><i class="fa-solid fa-3"></i></button>
+            <button onclick="Display('+')"><i class="fa-solid fa-plus"></i></button>
+            
+            <button onclick="Display('.')" style="font-weight: bold;">.</button>
+            <button onclick="Display('0')"><i class="fa-solid fa-0"></i></button>
+
+
+            <button onclick="Delete()"><i class="fa-solid fa-delete-left"></i></button>
+            <button onclick="Equalet()"><i class="fa-solid fa-equals"></i></button>
+
+
+
+
+
+        </div>
+    </div>
+    
+
+
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
